@@ -1,2 +1,0 @@
-# homework-itschool
-teme
