@@ -1,5 +1,7 @@
 #!/bin/bash
-# Modificați scriptul să nu aștepte la nesfarsit ci maxim 1 minut. Dar daca fisierul este create mai devreme de 1 minut scriptul trebuie sa se termine mai devreme.
+
+# Modificați scriptul să nu aștepte la nesfarsit ci maxim 1 minut. 
+# Dar daca fisierul este create mai devreme de 1 minut scriptul trebuie sa se termine mai devreme.
 
 # Verificăm dacă a fost furnizat un argument (calea fișierului)
 if [ -z "$1" ]; then

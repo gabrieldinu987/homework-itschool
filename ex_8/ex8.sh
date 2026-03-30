@@ -1,7 +1,7 @@
-#Faceti un script de shell cu numele group-copy.sh ce copiaza userii dintr-un grup in altul.
-#Scriptul primește 2 parametrii obligatorii și diferiți: grupul sursa și grupul destinatie (in ordinea aceasta).
-
 #!/bin/bash
+
+# Faceti un script de shell cu numele group-copy.sh ce copiaza userii dintr-un grup in altul.
+# Scriptul primește 2 parametrii obligatorii și diferiți: grupul sursa și grupul destinatie (in ordinea aceasta).
 
 # Verificare numar parametri
 if [ "$#" -ne 2 ]; then

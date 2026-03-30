@@ -1,4 +1,5 @@
 #!/bin/bash
+
 #Faceți un script ce așteaptă (la nesfarsit) după un fisier pe disk sa fie creat (ce fișier doriti). După ce fișierul a fost create scriptul afișează un mesaj și iese cu succes.
 
 # Fișierul pe care îl așteptăm

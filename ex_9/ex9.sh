@@ -1,6 +1,7 @@
-#Faceți un script ce dă restart la serviciul de sshd dacă este oprit. Puneți scriptul in crontab sa ruleze la fiecare minut. 
-
 #!/bin/bash
+
+# Faceți un script ce dă restart la serviciul de sshd dacă este oprit.
+# Puneți scriptul in crontab sa ruleze la fiecare minut. 
 
 SERVICE="sshd"
 

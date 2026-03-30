@@ -1,5 +1,8 @@
 #!/bin/bash
-#Faceți un script ce face backup la fiecare 5 secunde la un director (doar la fisierele ce s-au modificat din acel director). Scriptul primește ca argument numele directorului la care trebuie făcut backup. Frecvența la care se face backup este citită dintr-o variabila de mediu cu numele FRECVENTA_BACKUP (cu valoare implicită de 5 secunde). 
+
+# Faceți un script ce face backup la fiecare 5 secunde la un director (doar la fisierele ce s-au modificat din acel director).
+# Scriptul primește ca argument numele directorului la care trebuie făcut backup.
+# Frecvența la care se face backup este citită dintr-o variabila de mediu cu numele FRECVENTA_BACKUP (cu valoare implicită de 5 secunde). 
 
 # Verificam daca s-a dat argument
 if [ -z "$1" ]; then
