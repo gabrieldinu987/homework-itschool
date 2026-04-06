@@ -10,7 +10,7 @@
 # Se creaza imaginea folosind dockerfile-ul existent
 docker build -f ./dockerfile -t gabrieldinu987/salut-img:1.0 .
 
-# Se creaza containerul cu memorie si cpu specificat
+# Se creeaza containerul cu memorie si cpu specificat
 docker run -d \
   --name salutare2 \
   --memory="6m" \
