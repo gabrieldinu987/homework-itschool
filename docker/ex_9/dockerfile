@@ -1,0 +1,13 @@
+# Imagine de bază
+FROM ubuntu:latest
+
+# Evităm interacțiunile la instalare
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Update + instalare pachete
+RUN apt-get update && \
+    apt-get install -y vim iputils-ping && \
+    apt-get clean
+
+# Comandă implicită (containerul rămâne pornit)
+CMD ["sleep", "infinity"]
