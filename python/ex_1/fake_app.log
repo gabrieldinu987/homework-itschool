@@ -1,0 +1,204 @@
+2026-04-10 20:11:04 | DEBUG | Argument primit: num_lines=100
+2026-04-10 20:11:04 | INFO | Pornire generare loguri fictive.
+2026-04-10 20:11:04 | DEBUG | Request ID-uri generate: ['d9d86de9-1636-462a-ad87-c132bdbfa4ac', 'cd5870ef-c2a2-496c-8b7f-64848133d19a', 'afd27555-c49b-4f9d-97f7-fe791f530912', 'a4c0e69b-e98f-4deb-886b-67b21d3e940a', '515e426d-4477-4915-a905-8cea3364b2c1', '44142ab6-f9c5-4ff1-beb7-7a934acbfc28', '100359e6-32c0-40db-8af9-bfdc65c28798', 'a33e9c02-cf4d-466b-b319-19e84d673334', '37962f73-23aa-45d0-88d8-821da2a1f5f4', '64bc0105-d9e7-41be-93e5-7aac2ca9ff0d']
+2026-04-10 20:11:04 | INFO | RequestID=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 1: level=INFO, request_id=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d
+2026-04-10 20:11:04 | ERROR | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 2: level=ERROR, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | INFO | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 3: level=INFO, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | ERROR | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | File uploaded successfully
+2026-04-10 20:11:04 | DEBUG | Linia 4: level=ERROR, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | ERROR | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 5: level=ERROR, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | ERROR | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 6: level=ERROR, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | INFO | RequestID=100359e6-32c0-40db-8af9-bfdc65c28798 | Timeout while processing request
+2026-04-10 20:11:04 | DEBUG | Linia 7: level=INFO, request_id=100359e6-32c0-40db-8af9-bfdc65c28798
+2026-04-10 20:11:04 | ERROR | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 8: level=ERROR, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | WARNING | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 9: level=WARNING, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | ERROR | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 10: level=ERROR, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | ERROR | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 11: level=ERROR, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | ERROR | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | User authenticated successfully
+2026-04-10 20:11:04 | DEBUG | Linia 12: level=ERROR, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | INFO | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | File uploaded successfully
+2026-04-10 20:11:04 | DEBUG | Linia 13: level=INFO, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | INFO | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 14: level=INFO, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | WARNING | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | Service started successfully
+2026-04-10 20:11:04 | DEBUG | Linia 15: level=WARNING, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | WARNING | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 16: level=WARNING, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | ERROR | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 17: level=ERROR, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | INFO | RequestID=515e426d-4477-4915-a905-8cea3364b2c1 | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 18: level=INFO, request_id=515e426d-4477-4915-a905-8cea3364b2c1
+2026-04-10 20:11:04 | ERROR | RequestID=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 19: level=ERROR, request_id=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d
+2026-04-10 20:11:04 | ERROR | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 20: level=ERROR, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | INFO | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 21: level=INFO, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | ERROR | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 22: level=ERROR, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | WARNING | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Timeout while processing request
+2026-04-10 20:11:04 | DEBUG | Linia 23: level=WARNING, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | WARNING | RequestID=100359e6-32c0-40db-8af9-bfdc65c28798 | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 24: level=WARNING, request_id=100359e6-32c0-40db-8af9-bfdc65c28798
+2026-04-10 20:11:04 | ERROR | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | User authenticated successfully
+2026-04-10 20:11:04 | DEBUG | Linia 25: level=ERROR, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | INFO | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Access denied
+2026-04-10 20:11:04 | DEBUG | Linia 26: level=INFO, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | WARNING | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Access denied
+2026-04-10 20:11:04 | DEBUG | Linia 27: level=WARNING, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | INFO | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 28: level=INFO, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | INFO | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | File uploaded successfully
+2026-04-10 20:11:04 | DEBUG | Linia 29: level=INFO, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | INFO | RequestID=afd27555-c49b-4f9d-97f7-fe791f530912 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 30: level=INFO, request_id=afd27555-c49b-4f9d-97f7-fe791f530912
+2026-04-10 20:11:04 | WARNING | RequestID=515e426d-4477-4915-a905-8cea3364b2c1 | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 31: level=WARNING, request_id=515e426d-4477-4915-a905-8cea3364b2c1
+2026-04-10 20:11:04 | WARNING | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | User authenticated successfully
+2026-04-10 20:11:04 | DEBUG | Linia 32: level=WARNING, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | WARNING | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | Timeout while processing request
+2026-04-10 20:11:04 | DEBUG | Linia 33: level=WARNING, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | ERROR | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 34: level=ERROR, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | INFO | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 35: level=INFO, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | INFO | RequestID=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 36: level=INFO, request_id=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d
+2026-04-10 20:11:04 | WARNING | RequestID=515e426d-4477-4915-a905-8cea3364b2c1 | User authenticated successfully
+2026-04-10 20:11:04 | DEBUG | Linia 37: level=WARNING, request_id=515e426d-4477-4915-a905-8cea3364b2c1
+2026-04-10 20:11:04 | INFO | RequestID=515e426d-4477-4915-a905-8cea3364b2c1 | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 38: level=INFO, request_id=515e426d-4477-4915-a905-8cea3364b2c1
+2026-04-10 20:11:04 | INFO | RequestID=afd27555-c49b-4f9d-97f7-fe791f530912 | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 39: level=INFO, request_id=afd27555-c49b-4f9d-97f7-fe791f530912
+2026-04-10 20:11:04 | INFO | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 40: level=INFO, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | ERROR | RequestID=100359e6-32c0-40db-8af9-bfdc65c28798 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 41: level=ERROR, request_id=100359e6-32c0-40db-8af9-bfdc65c28798
+2026-04-10 20:11:04 | INFO | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | File uploaded successfully
+2026-04-10 20:11:04 | DEBUG | Linia 42: level=INFO, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | INFO | RequestID=515e426d-4477-4915-a905-8cea3364b2c1 | User authenticated successfully
+2026-04-10 20:11:04 | DEBUG | Linia 43: level=INFO, request_id=515e426d-4477-4915-a905-8cea3364b2c1
+2026-04-10 20:11:04 | ERROR | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 44: level=ERROR, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | INFO | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 45: level=INFO, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | INFO | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 46: level=INFO, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | INFO | RequestID=100359e6-32c0-40db-8af9-bfdc65c28798 | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 47: level=INFO, request_id=100359e6-32c0-40db-8af9-bfdc65c28798
+2026-04-10 20:11:04 | INFO | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 48: level=INFO, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | INFO | RequestID=515e426d-4477-4915-a905-8cea3364b2c1 | Access denied
+2026-04-10 20:11:04 | DEBUG | Linia 49: level=INFO, request_id=515e426d-4477-4915-a905-8cea3364b2c1
+2026-04-10 20:11:04 | WARNING | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 50: level=WARNING, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | ERROR | RequestID=100359e6-32c0-40db-8af9-bfdc65c28798 | Timeout while processing request
+2026-04-10 20:11:04 | DEBUG | Linia 51: level=ERROR, request_id=100359e6-32c0-40db-8af9-bfdc65c28798
+2026-04-10 20:11:04 | INFO | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | User authenticated successfully
+2026-04-10 20:11:04 | DEBUG | Linia 52: level=INFO, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | WARNING | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Service started successfully
+2026-04-10 20:11:04 | DEBUG | Linia 53: level=WARNING, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | INFO | RequestID=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d | Access denied
+2026-04-10 20:11:04 | DEBUG | Linia 54: level=INFO, request_id=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d
+2026-04-10 20:11:04 | ERROR | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 55: level=ERROR, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | WARNING | RequestID=afd27555-c49b-4f9d-97f7-fe791f530912 | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 56: level=WARNING, request_id=afd27555-c49b-4f9d-97f7-fe791f530912
+2026-04-10 20:11:04 | INFO | RequestID=515e426d-4477-4915-a905-8cea3364b2c1 | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 57: level=INFO, request_id=515e426d-4477-4915-a905-8cea3364b2c1
+2026-04-10 20:11:04 | INFO | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 58: level=INFO, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | INFO | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | File uploaded successfully
+2026-04-10 20:11:04 | DEBUG | Linia 59: level=INFO, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | ERROR | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 60: level=ERROR, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | ERROR | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 61: level=ERROR, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | ERROR | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 62: level=ERROR, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | WARNING | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | Access denied
+2026-04-10 20:11:04 | DEBUG | Linia 63: level=WARNING, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | ERROR | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | File uploaded successfully
+2026-04-10 20:11:04 | DEBUG | Linia 64: level=ERROR, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | INFO | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 65: level=INFO, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | WARNING | RequestID=afd27555-c49b-4f9d-97f7-fe791f530912 | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 66: level=WARNING, request_id=afd27555-c49b-4f9d-97f7-fe791f530912
+2026-04-10 20:11:04 | WARNING | RequestID=515e426d-4477-4915-a905-8cea3364b2c1 | Access denied
+2026-04-10 20:11:04 | DEBUG | Linia 67: level=WARNING, request_id=515e426d-4477-4915-a905-8cea3364b2c1
+2026-04-10 20:11:04 | INFO | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 68: level=INFO, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | ERROR | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 69: level=ERROR, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | INFO | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 70: level=INFO, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | WARNING | RequestID=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 71: level=WARNING, request_id=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d
+2026-04-10 20:11:04 | WARNING | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 72: level=WARNING, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | ERROR | RequestID=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d | Service started successfully
+2026-04-10 20:11:04 | DEBUG | Linia 73: level=ERROR, request_id=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d
+2026-04-10 20:11:04 | WARNING | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 74: level=WARNING, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | ERROR | RequestID=a4c0e69b-e98f-4deb-886b-67b21d3e940a | Service started successfully
+2026-04-10 20:11:04 | DEBUG | Linia 75: level=ERROR, request_id=a4c0e69b-e98f-4deb-886b-67b21d3e940a
+2026-04-10 20:11:04 | WARNING | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | File uploaded successfully
+2026-04-10 20:11:04 | DEBUG | Linia 76: level=WARNING, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | ERROR | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 77: level=ERROR, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | ERROR | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 78: level=ERROR, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | INFO | RequestID=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d | User authenticated successfully
+2026-04-10 20:11:04 | DEBUG | Linia 79: level=INFO, request_id=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d
+2026-04-10 20:11:04 | ERROR | RequestID=100359e6-32c0-40db-8af9-bfdc65c28798 | Timeout while processing request
+2026-04-10 20:11:04 | DEBUG | Linia 80: level=ERROR, request_id=100359e6-32c0-40db-8af9-bfdc65c28798
+2026-04-10 20:11:04 | WARNING | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 81: level=WARNING, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | WARNING | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 82: level=WARNING, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | INFO | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 83: level=INFO, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | ERROR | RequestID=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d | Unexpected server error occurred
+2026-04-10 20:11:04 | DEBUG | Linia 84: level=ERROR, request_id=64bc0105-d9e7-41be-93e5-7aac2ca9ff0d
+2026-04-10 20:11:04 | ERROR | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 85: level=ERROR, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | ERROR | RequestID=afd27555-c49b-4f9d-97f7-fe791f530912 | Timeout while processing request
+2026-04-10 20:11:04 | DEBUG | Linia 86: level=ERROR, request_id=afd27555-c49b-4f9d-97f7-fe791f530912
+2026-04-10 20:11:04 | WARNING | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 87: level=WARNING, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | ERROR | RequestID=44142ab6-f9c5-4ff1-beb7-7a934acbfc28 | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 88: level=ERROR, request_id=44142ab6-f9c5-4ff1-beb7-7a934acbfc28
+2026-04-10 20:11:04 | INFO | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Resource not found
+2026-04-10 20:11:04 | DEBUG | Linia 89: level=INFO, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | ERROR | RequestID=d9d86de9-1636-462a-ad87-c132bdbfa4ac | User authenticated successfully
+2026-04-10 20:11:04 | DEBUG | Linia 90: level=ERROR, request_id=d9d86de9-1636-462a-ad87-c132bdbfa4ac
+2026-04-10 20:11:04 | INFO | RequestID=afd27555-c49b-4f9d-97f7-fe791f530912 | Database connection established
+2026-04-10 20:11:04 | DEBUG | Linia 91: level=INFO, request_id=afd27555-c49b-4f9d-97f7-fe791f530912
+2026-04-10 20:11:04 | INFO | RequestID=100359e6-32c0-40db-8af9-bfdc65c28798 | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 92: level=INFO, request_id=100359e6-32c0-40db-8af9-bfdc65c28798
+2026-04-10 20:11:04 | WARNING | RequestID=100359e6-32c0-40db-8af9-bfdc65c28798 | Configuration loaded
+2026-04-10 20:11:04 | DEBUG | Linia 93: level=WARNING, request_id=100359e6-32c0-40db-8af9-bfdc65c28798
+2026-04-10 20:11:04 | ERROR | RequestID=a33e9c02-cf4d-466b-b319-19e84d673334 | Service started successfully
+2026-04-10 20:11:04 | DEBUG | Linia 94: level=ERROR, request_id=a33e9c02-cf4d-466b-b319-19e84d673334
+2026-04-10 20:11:04 | ERROR | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | Service started successfully
+2026-04-10 20:11:04 | DEBUG | Linia 95: level=ERROR, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | WARNING | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | Timeout while processing request
+2026-04-10 20:11:04 | DEBUG | Linia 96: level=WARNING, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | ERROR | RequestID=515e426d-4477-4915-a905-8cea3364b2c1 | Access denied
+2026-04-10 20:11:04 | DEBUG | Linia 97: level=ERROR, request_id=515e426d-4477-4915-a905-8cea3364b2c1
+2026-04-10 20:11:04 | ERROR | RequestID=37962f73-23aa-45d0-88d8-821da2a1f5f4 | Timeout while processing request
+2026-04-10 20:11:04 | DEBUG | Linia 98: level=ERROR, request_id=37962f73-23aa-45d0-88d8-821da2a1f5f4
+2026-04-10 20:11:04 | WARNING | RequestID=cd5870ef-c2a2-496c-8b7f-64848133d19a | Invalid user credentials
+2026-04-10 20:11:04 | DEBUG | Linia 99: level=WARNING, request_id=cd5870ef-c2a2-496c-8b7f-64848133d19a
+2026-04-10 20:11:04 | WARNING | RequestID=afd27555-c49b-4f9d-97f7-fe791f530912 | File uploaded successfully
+2026-04-10 20:11:04 | DEBUG | Linia 100: level=WARNING, request_id=afd27555-c49b-4f9d-97f7-fe791f530912
+2026-04-10 20:11:04 | INFO | Generarea logurilor s-a încheiat cu succes.
