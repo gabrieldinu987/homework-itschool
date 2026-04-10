@@ -13,3 +13,4 @@ docker run -d --name tools1 tools-img
 
 # Comenzi din container
 docker exec -it tools1 bash
+
