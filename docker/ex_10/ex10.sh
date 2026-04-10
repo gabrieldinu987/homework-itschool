@@ -36,7 +36,7 @@ docker network connect bridge tools1-ctn
 docker network connect bridge tools2-ctn
 
 # Inspect reteaua bridge
-docker network inspect bridge
+docker network inspect retea-interna
 docker network inspect bridge
 
 # Inspect containere

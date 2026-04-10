@@ -14,24 +14,21 @@ docker network create --driver bridge public
 # Reteaua privata
 docker network create --driver bridge --internal private
 
-# Run frontend
+# Ruleaza frontend
 docker run -dit \
   --name frontend \
   --network public \
-  -p 8081:80 \
   tools-img
 
-# Run backend
+# Ruleaza backend
   docker run -dit \
   --name backend \
   --network public \
   --network private \
-  -p 8082:80 \
-  tools-img
+  tools-imgip add
 
-# Run database
+# Ruleaza database
   docker run -dit \
   --name database \
   --network private \
-  -p 8083:80 \
   tools-img
