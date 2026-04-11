@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
-# Faceți un script de python ce genereaza un log fake.
-# Cerinte: scriptul primește ca argument cate linii de log să genereze fiecare linie este scrisă cu un level de logging random (INFO, WARNING, sau ERROR)
-# Fiecare linie de log contine: 
-#   - un mesaj random dintr-o lista de mesaje predefinite de voi 
-#   - un request id random dintr-o lista fixa de 10 request id-uri generata la începutul scriptului (fiecare request id este un UUID)
-#   - data și ora la care s-a printat mesajul 
-#   - nivelul de logging
+"""
+ Faceți un script de python ce genereaza un log fake.
+ Cerinte: scriptul primește ca argument cate linii de log să genereze fiecare linie este scrisă cu un level de logging random (INFO, WARNING, sau ERROR)
+ Fiecare linie de log contine: 
+ - un mesaj random dintr-o lista de mesaje predefinite de voi 
+ - un request id random dintr-o lista fixa de 10 request id-uri generata la începutul scriptului (fiecare request id este un UUID)
+ - data și ora la care s-a printat mesajul 
+ - nivelul de logging
+"""
 
 import logging
 import random

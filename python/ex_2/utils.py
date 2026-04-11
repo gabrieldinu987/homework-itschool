@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 
-# Faceți un modul de utils in care adaugati 2 metode:
-# - una care face sha256 hash la un string 
-# - alta la un fisier.
-# Testați aceste metode de utils dintr-un alt script de python.
-
+"""
+Faceți un modul de utils in care adaugati 2 metode:
+ - una care face sha256 hash la un string 
+ - alta la un fisier.
+Testați aceste metode de utils dintr-un alt script de python.
+"""
 # utils.py
 import hashlib
 

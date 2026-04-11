@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
-# Faceți un script de python ce verifica dacă nivelul de ocupare al discului este mai mare de un prag (configurable printr-o variabila de mediu - implicit 90%).
-# În cazul în care ocuparea discului este mai mare de acest prag printeaza un mesaj de alertă în consola.
-# Puneti acest script sa ruleze in ~/.bashrc
+"""
+Faceți un script de python ce verifica dacă nivelul de ocupare al discului este mai mare de un prag (configurable printr-o variabila de mediu - implicit 90%).
+În cazul în care ocuparea discului este mai mare de acest prag printeaza un mesaj de alertă în consola.
+Puneti acest script sa ruleze in ~/.bashrc
+"""
 
 import os
 import shutil
