@@ -9,7 +9,7 @@ def main():
     text = "Salut, lume!"
     string_hash = sha256_string(text)
     print("Hash SHA-256 pentru string:")
-    print(f"Text: {text}")cd ..
+    print(f"Text: {text}")
     print(f"Hash: {string_hash}\n")
 
     # Test pentru fișier
