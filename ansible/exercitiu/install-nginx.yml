@@ -1,0 +1,19 @@
+- name: Instalez NGINX
+  hosts: all
+  become: true
+  tasks:
+    - name: Actualizez lista de pachete
+      apt:
+        update_cache: yes
+        cache_valid_time: 3600
+        
+    - name: Instalez nginx
+      apt:
+        name: nginx
+        state: latest
+
+    - name: Ensure nginx is started and enabled
+      service:
+        name: nginx
+        state: started
+        enabled: yes

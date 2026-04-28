@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
-# Faceti un script de python ce face backup la un fisier (doar dacă acesta a fost modificat).
-# Calea catre fișierul la care face backup este primita ca argument. 
-# Puneti scriptul de python in crontab sa ruleze automat la fiecare minut.
+"""
+Faceti un script de python ce face backup la un fisier (doar dacă acesta a fost modificat).
+Calea catre fișierul la care face backup este primita ca argument. 
+Puneti scriptul de python in crontab sa ruleze automat la fiecare minut.
+"""
 
 import os
 import sys
