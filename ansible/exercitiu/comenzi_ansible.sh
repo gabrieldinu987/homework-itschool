@@ -33,19 +33,29 @@ ssh -i ~/.ssh/id_rsa gabriel@192.168.2.197 -p 22
 python3 -m pip install --user ansible
 ansible --version
 
+
 #ex_1
 ansible database -i inventory.ini -m ping
 ansible all -i inventory.ini -m ping 
 
-#ansible all -m ping -> ia inventory din locatia default: /etc/ansible/hosts
 
 #ex_2
 ansible-playbook -i inventory.ini ping.yml
+
 
 #ex_3
 ansible-playbook -i inventory.ini create-empty-file.yml
 ansible-doc file
 
+
 #ex_4
 ansible-playbook -i inventory.ini install-nginx.yml
 ansible-playbook -i inventory.ini clean-install-nginx.yml
+
+
+#ex_5
+ansible-playbook -i inventory.ini create-user.yml
+
+
+#ex_6
+ansible-playbook -i inventory.ini -e pachet=tree install_pachet.yml
