@@ -1,0 +1,26 @@
+# playbook.yml
+---
+- name: Set environment variables from Ansible Vault secrets
+  hosts: all
+  become: true
+
+  vars_files:
+    - secrets.yml
+
+  tasks:
+    - name: Create global environment file
+      copy:
+        dest: /etc/profile.d/custom_secrets.sh
+        mode: '0644'
+        content: |
+          {% for key, value in vars.items() %}
+          {% if key in ['POSTGRES_USER', 'POSTGRES_PASSWORD', 'POSTGRES_DB'] %}
+          export {{ key }}="{{ value }}"
+          {% endif %}
+          {% endfor %}
+
+    - name: Ensure environment file is loaded for all shell sessions
+      lineinfile:
+        path: /etc/bash.bashrc
+        line: 'source /etc/profile.d/custom_secrets.sh'
+        state: present

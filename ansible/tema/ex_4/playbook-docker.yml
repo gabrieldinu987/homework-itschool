@@ -1,0 +1,50 @@
+# playbook.yml
+---
+- name: Configurare secrete si rulare PostgreSQL container
+  hosts: all
+  become: true
+
+  vars_files:
+    - secrets.yml
+
+  tasks:
+
+    - name: Se creaza fisierul de incarcare a variabilelor globale
+      copy:
+        dest: /etc/profile.d/custom_secrets.sh
+        mode: '0644'
+        content: |
+          export POSTGRES_USER="{{ POSTGRES_USER }}"
+          export POSTGRES_PASSWORD="{{ POSTGRES_PASSWORD }}"
+          export POSTGRES_DB="{{ POSTGRES_DB }}"
+
+    - name: Se asigura ca variabilele de mediu sunt incarcate pt toate sesiunile de shell
+      lineinfile:
+        path: /etc/bash.bashrc
+        line: 'source /etc/profile.d/custom_secrets.sh'
+        state: present
+
+    - name: Instalare dependinte Docker
+      apt:
+        name:
+          - docker.io
+          - python3-docker
+        state: present
+        update_cache: true
+
+    - name: Se asigura ca Docker service este pornit si ruleaza
+      service:
+        name: docker
+        state: started
+        enabled: true
+
+    - name: Rulare PostgreSQL container
+      shell: |
+        docker run -d \
+          --name postgres \
+          --restart always \
+          -p 5432:5432 \
+          -e POSTGRES_USER="{{ POSTGRES_USER }}" \
+          -e POSTGRES_PASSWORD="{{ POSTGRES_PASSWORD }}" \
+          -e POSTGRES_DB="{{ POSTGRES_DB }}" \
+          postgres:16
