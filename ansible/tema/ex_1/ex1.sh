@@ -33,4 +33,4 @@ ssh-copy-id -i ~/.ssh/ansible-key.pub ansible@192.168.2.194
 ssh -i ~/.ssh/ansible-key.pub ansible@192.168.2.194 -p 22
 
 # se incearca ping la serverele din inventar
-ansible servers -i ./inventory.ini -m ping
+ansible servers -i inventory.ini -m ping

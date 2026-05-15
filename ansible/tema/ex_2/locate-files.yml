@@ -1,0 +1,6 @@
+# locate-files.yml
+---
+files_to_locate:
+  - passwd
+  - hosts
+  - sshd_config
