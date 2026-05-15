@@ -1,0 +1,25 @@
+- name: Actualizare /etc/hosts si verificare host nou
+  hosts: all
+  become: true
+
+  vars:
+    new_host_ip: "192.168.2.182"
+    new_host_name: "ubuntu1"
+
+  tasks:
+    - name: Adauga intrare in /etc/hosts daca nu exista
+      ansible.builtin.lineinfile:
+        path: /etc/hosts
+        line: "{{ new_host_ip }} {{ new_host_name }}"
+        state: present
+      notify: Ping host nou
+
+  handlers:
+    - name: Ping host nou
+      ansible.builtin.command: "ping -c 3 {{ new_host_name }}"
+      register: ping_result
+      changed_when: false
+
+    - name: Afiseaza rezultatul ping-ului
+      ansible.builtin.debug:
+        var: ping_result.stdout_lines
