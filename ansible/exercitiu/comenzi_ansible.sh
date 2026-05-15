@@ -80,7 +80,7 @@ ansible-playbook -i inventory.ini db-connect.yaml --ask-vault-pass
 echo "pass12345!" > .vault_pass.txt
 chmod 600 .vault_pass.txt
 
-ansible-playbook -i inventory.ini db-connect.yaml --vault-password-file .vault_pass.txt
+ansible-playbook -i inventory.ini db-connect.yaml --vault-password-file ./vault_pass.txt
 
 ansible-vault encrypt file.yaml
 ansible-vault rekey file.yaml

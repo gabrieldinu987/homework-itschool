@@ -14,6 +14,7 @@
 
 # Criptare fisier secrets.yml cu Ansible Vault
 ansible-vault encrypt secrets.yml --vault-password-file ./vault-pass.txt
+ansible-vault view secrets.yml
 
 # Se ruleaza playbok-ul
 ansible-playbook -i inventory.ini playbook.yml --vault-password-file ./vault-pass.txt
