@@ -89,3 +89,6 @@ ansible-vault decrypt file.yaml
 #ex_9
 ansible-vault create domains.yml
 ansible-playbook -i inventory.ini --ask-vault-pass ping-domains.yml
+
+#ex_10
+ansible-playbook -i inventory.ini docker.yaml
